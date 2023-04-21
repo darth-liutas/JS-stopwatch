@@ -1,0 +1,39 @@
+.html{
+	margin:0;
+	padding:0;
+
+}
+body{
+background-color:#FFA600;
+color:white;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+.btn-container{
+	display:flex;
+	margin:auto;
+	width:600px;
+	justify-content:space-evenly;
+}
+.text{
+	text-align: center;
+	font-size:20px;
+
+}
+.text P{
+	font-size:30px;
+}
+.btn{
+background-color:#FFA600;
+width:170px;
+height:60px;
+color:white;
+border:1px solid white;
+font-size:20px;
+border-radius:5px;
+cursor:pointer;
+transition: 0.5s ease-in;
+}
+.btn:hover{
+color:#FFA600;
+background-color:white;
+}
